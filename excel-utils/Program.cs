@@ -6,7 +6,7 @@ namespace excel_utils
     public class Program
     {
         private EMailClient eMailClient;
-        private ExelExport excelHelper;
+        private ExcelExport excelHelper;
 
         private static SQLSetting sql;
         private static XLSSetting xls;
@@ -55,7 +55,7 @@ namespace excel_utils
                     }
                 }
 
-                var xlClient = new ExelExport(xls, sql);
+                var xlClient = new ExcelExport(xls, sql);
                 xlClient.ProcessExcel();
 
                 var emailClient = new EMailClient(msg);

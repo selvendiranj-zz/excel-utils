@@ -15,7 +15,7 @@ using excel_utils.Models;
 
 namespace excel_utils
 {
-    public class ExelExport
+    public class ExcelExport
     {
         private Application _application;
         private Workbook _workbook;
@@ -25,7 +25,7 @@ namespace excel_utils
         private XLSSetting xls;
         private SQLSetting sql;
 
-        public ExelExport(XLSSetting xls, SQLSetting sql)
+        public ExcelExport(XLSSetting xls, SQLSetting sql)
         {
             this.xls = xls;
             this.sql = sql;
