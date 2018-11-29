@@ -21,6 +21,10 @@ namespace excel_utils
             msg = new MSGSetting();
         }
 
+        /// <summary>
+        /// Parse the parameters passed from console
+        /// </summary>
+        /// <param name="args"></param>
         private void ParseInput(string[] args)
         {
             try
